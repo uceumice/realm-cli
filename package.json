@@ -1,14 +1,14 @@
 {
   "name": "@realm.w/cli",
   "bin": {
-    "realm-cli": "./out/index.js"
+    "realm-cli": "out/index.js"
   },
-  "main": "./out/index.js",
-  "types": "./out/index.d.ts",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
   "files": [
     "out"
   ],
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
@@ -29,8 +29,8 @@
     "@types/node": "^18.7.16",
     "@types/uglify-js": "^3.17.0",
     "nodemon": "^2.0.19",
-    "prettier": "^2.7.1",
-    "ts-node": "^10.9.1"
+    "prettier": "latest",
+    "ts-node": "latest"
   },
   "dependencies": {
     "@babel/core": "^7.19.0",
@@ -38,7 +38,7 @@
     "@babel/parser": "^7.19.0",
     "@babel/traverse": "^7.19.0",
     "@babel/types": "^7.19.0",
-    "@realm.w/helpers": "workspace:*",
+    "@realm.w/helpers": "latest",
     "ajv": "^8.11.0",
     "byte-size": "^8.1.0",
     "chalk": "^4.1.2",

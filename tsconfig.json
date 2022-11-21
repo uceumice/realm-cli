@@ -3,7 +3,7 @@
         "target": "ES2015",
         "module": "CommonJS",
         "declaration": true,
-        "outDir": "./out",
+        "outDir": "out",
         "strict": true,
         "skipLibCheck": true,
         "esModuleInterop": true,
@@ -12,7 +12,7 @@
         ]
     },
     "include": [
-        "./src/**/*"
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules"
