@@ -61,5 +61,8 @@ node_modules/
 
 # End of https://www.toptal.com/developers/gitignore/api/git,node
 
+# Turbo Repo
 .turbo
+
+# TypeScript Output
 out
