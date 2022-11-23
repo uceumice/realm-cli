@@ -10,7 +10,7 @@ ANNOUNCEMENT | The build tool is undergoing active development without a garante
     - [npm](#npm)
     - [pnpm](#pnpm)
     - [yarn](#yarn)
-  - [Quickguide [package.json]](#quickguide-packagejson)
+  - [Quickguide \[package.json\]](#quickguide-packagejson)
   - [Purpose](#purpose)
     - [How does Realm Fun work?](#how-does-realm-fun-work)
     - [What does Realm Fun achive?](#what-does-realm-fun-achive)
@@ -49,7 +49,7 @@ Here, your functions written in TypeScript are located at `./src/realm/function`
 ```json
 {
     "scripts":{
-        "build": "npx realm-cli functions build ./src/realm/function ./out/functions [--watch]"
+        "build": "npx @realm.w/cli functions build ./src/realm/functions ./out/functions [--watch] [--flatten]"
     }
 }
 ```
@@ -109,7 +109,7 @@ export default async (args) =>{
 ### Directory
 
 ```bash
-realm-fun functions build ./src/realm/functions ./out/functions [--watch] [--flatten]
+realm-cli functions build ./src/realm/functions ./out/functions [--watch] [--flatten]
 ```
 
 `Important: You should use --flatten, which breaks down directory structure into files structure, in order to delpoy to Atlas App Services via GitHub Deployments`
